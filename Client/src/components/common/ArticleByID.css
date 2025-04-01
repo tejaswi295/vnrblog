@@ -1,0 +1,105 @@
+.article-detail-container {
+  background: #121212;
+  min-height: calc(100vh - 70px);
+  margin-top: 70px;
+  padding: 2rem;
+}
+
+.article-content {
+  background: #1E1E1E;
+  border-radius: 8px;
+  padding: 2rem;
+  border: 1px solid rgba(201, 162, 39, 0.2);
+}
+
+.article-title {
+  color: #FFD700;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.article-text {
+  color: #E0E0E0;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.article-meta {
+  color: #B8B8B8;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.edit-button, .delete-button {
+  background: transparent;
+  border: 2px solid #C9A227;
+  color: #C9A227;
+  padding: 0.5rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.edit-button:hover {
+  background: #C9A227;
+  color: #121212;
+}
+
+.delete-button {
+  border-color: #ff4d4d;
+  color: #ff4d4d;
+}
+
+.delete-button:hover {
+  background: #ff4d4d;
+  color: #121212;
+}
+
+.comments-section {
+  margin-top: 3rem;
+  background: #1E1E1E;
+  border-radius: 8px;
+  padding: 2rem;
+  border: 1px solid rgba(201, 162, 39, 0.2);
+}
+
+.comment-form textarea {
+  background: #121212;
+  border: 1px solid rgba(201, 162, 39, 0.2);
+  color: #E0E0E0;
+  border-radius: 6px;
+  padding: 1rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.comment-list {
+  margin-top: 2rem;
+}
+
+.comment-item {
+  background: #121212;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(201, 162, 39, 0.1);
+}
+
+.comment-author {
+  color: #C9A227;
+  font-weight: 500;
+}
+
+.comment-text {
+  color: #E0E0E0;
+  margin-top: 0.5rem;
+} 

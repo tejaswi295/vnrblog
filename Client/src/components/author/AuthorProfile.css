@@ -1,0 +1,38 @@
+.author-profile {
+  background: #121212;
+  min-height: calc(100vh - 70px);
+  margin-top: 70px;
+  padding: 2rem;
+}
+
+.nav-menu {
+  background: #1E1E1E;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid rgba(201, 162, 39, 0.2);
+}
+
+.nav-item .nav-link {
+  color: #E0E0E0;
+  transition: all 0.3s ease;
+  padding: 0.8rem 1.5rem;
+  border-radius: 6px;
+}
+
+.nav-item .nav-link:hover {
+  color: #FFD700;
+  background: rgba(201, 162, 39, 0.1);
+}
+
+.nav-item .nav-link.active {
+  background: #C9A227;
+  color: #121212;
+}
+
+.content-area {
+  margin-top: 2rem;
+  background: #1E1E1E;
+  border-radius: 8px;
+  padding: 2rem;
+  border: 1px solid rgba(201, 162, 39, 0.2);
+} 
